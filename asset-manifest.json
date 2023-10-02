@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/simple-blog/static/css/main.80b2b37b.css",
+    "main.js": "/simple-blog/static/js/main.2ea203a7.js",
+    "static/media/social-icons.jpg": "/simple-blog/static/media/social-icons.48eef2fd4d1aa80dab4f.jpg",
+    "static/media/messi.jpg": "/simple-blog/static/media/messi.3c1a13187d5ec8c61adb.jpg",
+    "static/media/programer.jpg": "/simple-blog/static/media/programer.98bdf5a294d5ef9a9548.jpg",
+    "static/media/Oppenheimer.jpg": "/simple-blog/static/media/Oppenheimer.c80c2bbb063166a239d3.jpg",
+    "static/media/main-bg.jpeg": "/simple-blog/static/media/main-bg.f5202a31b6f4c98e0e77.jpeg",
+    "static/media/ai.jpg": "/simple-blog/static/media/ai.d41c10b8b894566a80c8.jpg",
+    "static/media/author-img3.jpg": "/simple-blog/static/media/author-img3.671e5f7025b3f1b0dcb0.jpg",
+    "static/media/author-img4.jpg": "/simple-blog/static/media/author-img4.79036f50bc6d872b7114.jpg",
+    "static/media/img2.jpeg": "/simple-blog/static/media/img2.9b87dc64405ef6d817c8.jpeg",
+    "static/media/earth.jpg": "/simple-blog/static/media/earth.fd6d0ceab757e5b0c2fd.jpg",
+    "static/media/health.jpg": "/simple-blog/static/media/health.d6008772538aa8536c6f.jpg",
+    "static/media/apple.jpg": "/simple-blog/static/media/apple.ec5b5b6acb7d16797802.jpg",
+    "static/media/author-img5.jpg": "/simple-blog/static/media/author-img5.4d56f99b60a1a2ca12ac.jpg",
+    "static/media/author-img1.png": "/simple-blog/static/media/author-img1.d4ef066f58b840f8f5e1.png",
+    "static/media/author-img2.jpg": "/simple-blog/static/media/author-img2.773c0d967a6da3240eaf.jpg",
+    "static/media/profile-img.jpg": "/simple-blog/static/media/profile-img.6f314189cab26bcc6d43.jpg",
+    "index.html": "/simple-blog/index.html",
+    "main.80b2b37b.css.map": "/simple-blog/static/css/main.80b2b37b.css.map",
+    "main.2ea203a7.js.map": "/simple-blog/static/js/main.2ea203a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80b2b37b.css",
+    "static/js/main.2ea203a7.js"
+  ]
+}
