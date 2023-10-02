@@ -1,0 +1,32 @@
+.bottom-search {
+    border-top: 1px solid #dee2e6;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 7px 0;
+    z-index: 7;
+}
+
+.bottom-search .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bottom-search .search img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+.bottom-search .search a:last-child {
+    transform: rotate(-90deg);
+    font-size: 30px;
+    color: #444;
+    padding-top: 6px;
+    border-top: 1px solid #dee2e6;
+    cursor: pointer;
+}

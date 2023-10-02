@@ -1,0 +1,7 @@
+.settings {
+    margin-top: 100px;
+}
+
+.settings .settings-box {
+    display: flex;
+}

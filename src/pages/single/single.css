@@ -1,0 +1,9 @@
+.single {
+    margin-top: 100px;
+}
+
+.single .single-box {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 50px;
+}

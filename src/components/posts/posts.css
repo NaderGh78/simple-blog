@@ -1,0 +1,136 @@
+.posts {
+    flex: 2;
+    position: relative;
+}
+
+.posts .posts-content {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex: 2;
+}
+
+.posts .posts-content .post-box {
+    width: 48%;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.posts .posts-content .post-box img {
+    width: 100%;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.posts .posts-content .post-box ul.category {
+    padding: 0;
+    margin: 5px 0 0 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.posts .posts-content .post-box ul.category li a {
+    color: orange;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.posts .posts-content .post-box ul.category+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.posts .posts-content .post-box h2.post-title {
+    margin: 5px 0;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+.posts .posts-content .post-box span.date {
+    font-size: 11px;
+    font-style: italic;
+    color: #888;
+}
+
+/* style select  */
+.select-box {
+    width: 300px;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+    top: -60px;
+}
+
+.select-box::before {
+    content: "Sort By : ";
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    color: #888;
+    font-size: 14px;
+}
+
+.select-box select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    padding: 8px 0px 8px 70px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border: 1px solid lightgray;
+    color: #000;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.select-box svg {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    color: #000;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 425px) {
+
+    .select-box {
+        width: 100%;
+    }
+
+    .select-box::before {
+        z-index: 3;
+    }
+
+    .select-box select {
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .select-box svg { 
+        z-index: 2;
+    }
+
+    .posts .posts-content .post-box {
+        width: 100%;
+    }
+
+    .posts .posts-content {
+        margin-bottom: 25px;
+        gap: 5px;
+    }
+}

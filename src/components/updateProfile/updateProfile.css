@@ -1,0 +1,108 @@
+.update-profile {
+    flex: 2;
+}
+
+.update-profile .heading-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: #f18680;
+}
+
+.update-profile .heading-title h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.update-profile .heading-title span {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.update-profile .form-update form {
+    margin-top: 40px;
+}
+
+.update-profile .form-update form .top-content h5 {
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 0;
+}
+
+.update-profile .form-update form .top-content div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.update-profile .form-update form .top-content div img {
+    width: 70px;
+    height: 70px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.update-profile .form-update form .top-content div label {
+    margin-bottom: 0;
+}
+
+.update-profile .form-update form .top-content div label svg {
+    color: #f18680;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.update-profile .form-update form .top-content div label input {
+    display: none;
+}
+
+.update-profile .form-update form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.update-profile .form-update form label input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: transparent;
+}
+
+.update-profile .form-update form button {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 30px;
+    background-color: #008080;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 425px) {
+
+    .update-profile .heading-title h2 {
+        font-size: 5vw;
+    }
+
+    .update-profile .form-update form .top-content h5 {
+        font-size: 4vw;
+    }
+
+    .update-profile .form-update {
+        margin-bottom: 100px
+    }
+
+}

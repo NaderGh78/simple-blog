@@ -1,0 +1,10 @@
+.homepage {
+    margin-bottom: 60px;
+}
+
+.homepage .home {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    gap: 50px;
+}

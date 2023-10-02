@@ -1,0 +1,42 @@
+.select-box {
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 30px;
+}
+
+.select-box::before {
+    content: "Sort By : ";
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    color: #888;
+    font-size: 14px;
+}
+
+.select-box select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    padding: 8px 0px 8px 70px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border: 1px solid lightgray;
+    color: #000;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.select-box svg {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    color: #000;
+}

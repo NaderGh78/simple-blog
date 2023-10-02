@@ -1,0 +1,150 @@
+.topbar {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 7;
+}
+
+/* display it in mobile devices */
+.topbar span.bars-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 13px;
+    right: 25px;
+    font-size: 24px;
+    color: #888;
+    border: 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 7;
+}
+
+.topbar .topbar-all {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 5px 0;
+    margin: auto;
+}
+
+.topbar .topbar-all .socials {
+    flex: 1;
+}
+
+.topbar .topbar-all .socials .social-box {
+    display: flex;
+    gap: 3px;
+}
+
+.topbar .topbar-all .socials .social-box a {
+    font-size: 22px;
+    display: flex;
+    color: #444;
+}
+
+.topbar .topbar-all .pages-links {
+    flex: 5;
+}
+
+.topbar .topbar-all .pages-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topbar .topbar-all .pages-links ul li a {
+    color: #444;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.topbar .topbar-all .pages-links ul li a.active {
+    color: #eb1111;
+    font-weight: 500;
+}
+
+.topbar .topbar-all .search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.topbar .topbar-all .search img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+.topbar .topbar-all .search a:last-child {
+    transform: rotate(-90deg);
+    font-size: 30px;
+    color: #444;
+    cursor: pointer;
+}
+
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+
+@media only screen and (max-width: 768px) {
+
+    .topbar .topbar-all {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        flex-direction: column;
+        height: 50px;
+    }
+
+    .topbar .topbar-all.active {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        gap: 10px;
+        width: 100%;
+        padding: 20px 0;
+        height: 100%;
+    }
+
+    .topbar .topbar-all.active .pages-links {
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+
+    .topbar .topbar-all.active .pages-links ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .topbar .topbar-all.active .pages-links ul li {
+        border-bottom: 1px solid gray;
+        padding: 5px 0;
+    }
+
+    .topbar .topbar-all.active .pages-links ul li a {
+        font-size: 17px;
+        vertical-align: -webkit-baseline-middle;
+    }
+
+    .topbar .topbar-all.active .socials {
+        order: 3;
+    }
+
+    .topbar .topbar-all.active .search {
+        display: none;
+    }
+
+}

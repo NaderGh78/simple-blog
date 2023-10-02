@@ -1,0 +1,53 @@
+.header {
+    margin-top: 190px;
+}
+
+.header .header-box {
+    height: 500px;
+    background-image: url("../../assets/main-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.header .header-box .header-title-box {
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.header .header-box .header-title-box p {
+    margin: 0;
+    font-size: 20px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.header .header-box .header-title-box h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #444;
+    margin: 0;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 425px) {
+
+    .header {
+        margin-top: 160px;
+    }
+
+    .header .header-box {
+        height: 360px;
+    }
+
+}

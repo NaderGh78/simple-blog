@@ -1,0 +1,115 @@
+.singlepost {
+    flex: 3;
+}
+
+.singlepost .singlepost-box img {
+    display: block;
+    width: 100%;
+    height: 550px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 3px;
+    border: 2px solid lightgray;
+}
+
+.singlepost .singlepost-box .title-box {
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.singlepost .singlepost-box .title-box h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0;
+}
+
+.singlepost .singlepost-box .title-box div {
+    float: right;
+}
+
+.singlepost .singlepost-box .title-box a {
+    color: #ff6391;
+    font-size: 23px;
+}
+
+.singlepost .singlepost-box .title-box a:first-child {
+    color: #379fcb;
+}
+
+.singlepost .singlepost-box .author-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: goldenrod;
+}
+
+.singlepost .singlepost-box .author-box h3 {
+    font-weight: 100;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.singlepost .singlepost-box .author-box h3 a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 900;
+    text-transform: capitalize;
+    transition: all .2s;
+}
+
+.singlepost .singlepost-box .author-box h3 a:hover {
+    text-decoration: underline;
+}
+
+.singlepost .singlepost-box .post-desc {
+    color: #444;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.singlepost .singlepost-box .post-desc p::first-letter {
+    font-size: 200%;
+    font-weight: 500;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 425px) {
+
+    .singlepost .singlepost-box {
+        margin-bottom: 40px
+    }
+
+    .singlepost .singlepost-box img {
+        width: calc(100% - 10px);
+        height: 250px;
+    }
+
+    .singlepost .singlepost-box .title-box {
+        text-align: left;
+    }
+
+    .singlepost .singlepost-box .title-box h3 {
+        font-size: 4vw;
+    }
+
+    .singlepost .singlepost-box .author-box h3 {
+        font-size: 3.3vw;
+    }
+
+    .singlepost .singlepost-box .author-box {
+        font-size: 3.3vw;
+    }
+
+    .singlepost .singlepost-box .post-desc p {
+        font-size: 12px;
+        margin: 0
+    }
+
+}

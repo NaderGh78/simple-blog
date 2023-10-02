@@ -1,0 +1,119 @@
+.search-section {
+    margin-top: 170px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.search-section .search-all p {
+    font-size: 19px;
+    color: #444;
+}
+
+.search-section .search-all p a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .5);
+}
+
+.search-section .search-all .search-input-box {
+    width: 55%;
+    margin: 0 auto 50px;
+    text-align: left;
+}
+
+.search-section .search-all .search-input-box input {
+    width: 80%;
+    outline: none;
+    border: none;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    font-size: 23px;
+    color: gray;
+    padding: 5px 14px;
+    margin-right: 20px;
+}
+
+.not-empty {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, .25);
+    border-color: #dc3545 !important;
+}
+
+.search-section .search-all .search-input-box button {
+    flex: 1;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    background-color: #444;
+    border-radius: 4px;
+    padding: 7px 15px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.search-section .search-all .search-input-box button:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.search-section .search-all .search-input-box p {
+    color: #dc3545;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.search-section .search-all .posts {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    margin-bottom: 50px;
+}
+
+.search-section .search-all .posts .post-box {
+    width: 30%;
+}
+
+.search-section .search-all .posts h1 {
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, .5);
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 425px) {
+
+    .search-section {
+        margin-top: 120px;
+    }
+
+    .search-section .search-all .search-input-box {
+        width: 100%;
+        margin: 0 auto 15px;
+    }
+
+    .search-section .search-all .search-input-box input {
+        width: 92%;
+        margin: auto;
+        position: relative;
+    }
+
+    .search-section .search-all .search-input-box p {
+        position: absolute;
+        top: 85px;
+    }
+
+    .search-section .search-all .search-input-box button {
+        margin-top: 24px;
+    }
+
+    .search-section .search-all .posts h1 {
+        font-size: 5vw;
+    }
+
+    .search-section .search-all .posts .post-box {
+        width: 100%;
+    }
+
+}

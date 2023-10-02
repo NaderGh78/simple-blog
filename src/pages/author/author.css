@@ -1,0 +1,103 @@
+.author {
+    margin-top: 150px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.author .author-top-part {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.author .author-top-part .left {
+    flex: 1;
+    text-align: center;
+}
+
+.author .author-top-part .left img {
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.author .author-top-part .left h5 {
+    font-size: 40px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.author .author-top-part .right {
+    flex: 1;
+}
+
+.author .author-top-part .right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid gray;
+    height: 100%;
+}
+
+.author .author-top-part .right ul li {
+    display: flex;
+    align-items: center;
+    height: 25%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-bottom: 1px solid gray;
+    padding-left: 15px;
+}
+
+.author .author-top-part .right ul li:last-child {
+    border-bottom: none;
+}
+
+.author .posts-content {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.author .posts-content .post-box {
+    width: 23%;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 425px) {
+
+    .author {
+        margin-top: 95px;
+    }
+
+    .author .author-top-part {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .author .author-top-part .left h5 {
+        font-size: 7vw;
+    }
+
+    .author .author-top-part .right ul li {
+        font-size: 4vw;
+        padding: 5px;
+    }
+
+    .author .posts-content {
+        margin-bottom: 85px;
+    }
+
+    .author .posts-content .post-box {
+        width: 100%;
+    }
+
+}

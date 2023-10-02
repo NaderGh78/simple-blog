@@ -1,0 +1,80 @@
+.sidebar {
+    flex: 1;
+}
+
+.sidebar .sidebar-content {
+    width: 70%;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sidebar .sidebar-content>div:not(:first-child) {
+    margin: 20px 0;
+}
+
+.sidebar .sidebar-content h3 {
+    border: 1px solid #444;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.sidebar .sidebar-content img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #000;
+    padding: 3px;
+}
+
+.sidebar .sidebar-content p {
+    font-size: 12px;
+}
+
+.sidebar .sidebar-content ul.cate-ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.sidebar .sidebar-content ul.cate-ul li {
+    width: 50%;
+}
+
+.sidebar .sidebar-content ul.cate-ul li a {
+    color: #444;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.sidebar .sidebar-content .social-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.sidebar .sidebar-content .social-box a {
+    color: #444;
+    font-size: 20px;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 425px) {
+    .sidebar {
+        display: none;
+    }
+}
